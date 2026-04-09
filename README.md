@@ -19,7 +19,7 @@ sudo restorecon -Rv /var/cache/v727_pc10_last /var/log/v727_power.log
 
 3. Execution Sequence
 
-curl -sO https://github.com/Argantor91/Fujitsu-Arrow-Tab-Linux-Optimization/blob/main/V727_Gold_Master_Optimization_Script.sh
+curl -sSL https://raw.githubusercontent.com/Argantor91/Fujitsu-Arrow-Tab-Linux-Optimization/main/install.sh | sudo bash
 chmod +x v727_goldmaster.sh
 
 #Run as root
